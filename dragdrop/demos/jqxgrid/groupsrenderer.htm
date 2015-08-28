@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id='Description'>In this sample is demonstrated how to override the built-in rendering of the Groups headers. The Grouping of Product and Ship Date columns is disabled.</title>
+    <link rel="stylesheet" href="../../jqwidgets/styles/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="../../scripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxmenu.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxgrid.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxgrid.edit.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxgrid.selection.js"></script>
+	<script type="text/javascript" src="../../jqwidgets/jqxgrid.pager.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxgrid.grouping.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxgrid.aggregates.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxdropdownlist.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxcheckbox.js"></script>
+    <script type="text/javascript" src="../../jqwidgets/jqxdragdrop.js"></script>
+    <script type="text/javascript" src="../../scripts/demos.js"></script>
+    <script type="text/javascript" src="generatedata.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            
+
+            // prepare the data
+            var data = generatedata(200);
+
+            var source =
+            {
+                localdata: data,
+                datafields:
+                [
+                    { name: 'firstname', type: 'string' },
+                    { name: 'lastname', type: 'string' },
+                    { name: 'productname', type: 'string' },
+                    { name: 'date', type: 'date' },
+                    { name: 'quantity', type: 'number' },
+                    { name: 'price', type: 'number' }
+                ],
+                datatype: "array",
+                updaterow: function (rowid, rowdata) {
+                    // synchronize with the server - send update command   
+                }
+            };
+
+            var dataAdapter = new $.jqx.dataAdapter(source);
+
+            var toThemeProperty = function (className) {
+                return className + " " + className + "-" + theme;
+            }
+
+          /*  var groupsrenderer = function (text, group, expanded, data) {
+                if (data.groupcolumn.datafield == 'price' || data.groupcolumn.datafield == 'quantity') {
+                    var number = dataAdapter.formatNumber(group, data.groupcolumn.cellsformat);
+                    var text = data.groupcolumn.text + ': ' + number;
+                    if (data.subItems.length > 0) {
+                        var aggregate = this.getcolumnaggregateddata(data.groupcolumn.datafield, ['sum'], true, data.subItems);
+                    }
+                    else {
+                        var rows = new Array();
+                        var getRows = function (group, rows) {
+                            if (group.subGroups.length > 0) {
+                                for (var i = 0; i < group.subGroups.length; i++) {
+                                    getRows(group.subGroups[i], rows);
+                                }
+                            }
+                            else {
+                                for (var i = 0; i < group.subItems.length; i++) {
+                                    rows.push(group.subItems[i]);
+                                }
+                            }
+                        }
+                        getRows(data, rows);
+                        var aggregate = this.getcolumnaggregateddata(data.groupcolumn.datafield, ['sum'], true, rows);
+                    }
+                    
+                    return '<div class="' + toThemeProperty('jqx-grid-groups-row') + '" style="position: absolute;"><span>' + text + ', </span>' + '<span class="' + toThemeProperty('jqx-grid-groups-row-details') + '">' + "Total" + ' (' + aggregate.sum + ')' + '</span></div>';
+                }
+                else {
+                    return '<div class="' + toThemeProperty('jqx-grid-groups-row') + '" style="position: absolute;"><span>' + text + '</span>';
+                }
+            }*/
+
+            // initialize jqxGrid
+            $("#grid1").jqxGrid(
+            {
+                width: 500,
+                source: dataAdapter,
+                groupable: true,
+               /* groupsrenderer: groupsrenderer,*/
+                selectionmode: 'singlecell',
+                groups: ['price'],
+				rendered: function(type)
+                {
+                    // select all grid cells.
+                    //var gridCells = $('#grid1').find('.jqx-grid-group-cell');
+					var gridCells=$("#contenttablegrid1 > div[role='row']");
+
+                    // initialize the jqxDragDrop plug-in. Set its drop target to the second Grid.
+                    gridCells.jqxDragDrop({
+                        appendTo: 'body',  dragZIndex: 99999,
+                        dropAction: 'none',
+                        initFeedback: function (feedback) {
+                            feedback.height(25);
+                        },
+                        dropTarget: $('#grid2'), revert: true
+                    });
+                    gridCells.off('dragStart');
+                    gridCells.off('dragEnd');
+                    gridCells.off('dropTargetEnter');
+                    gridCells.off('dropTargetLeave');
+
+                    // disable revert when the dragged cell is over the second Grid.
+                    gridCells.on('dropTargetEnter', function () {
+                        gridCells.jqxDragDrop({ revert: false });
+                    });
+                    // enable revert when the dragged cell is outside the second Grid.
+                    gridCells.on('dropTargetLeave', function () {
+                        gridCells.jqxDragDrop({ revert: true });
+                    });
+                    // initialize the dragged object.
+                    gridCells.on('dragStart', function (event) {
+                        var value = $(this).text();
+                        var position = $.jqx.position(event.args);
+                        var cell = $("#grid1").jqxGrid('getcellatposition', position.left, position.top);
+                        $(this).jqxDragDrop('data', {
+                            value: value
+                        });
+                    });
+                    // set the new cell value when the dragged cell is dropped over the second Grid.      
+                    gridCells.on('dragEnd', function (event) {
+                        var value = $(this).text();
+                        var position = $.jqx.position(event.args);
+                        var cell = $("#grid2").jqxGrid('getcellatposition', position.left, position.top);
+                        if (cell != null) {
+						    var rowData=$('#grid2').jqxGrid('getrowdata',cell.row);
+                            $("#grid2").jqxGrid('setcellvalue', cell.row, 'productname', value);
+                        }
+                    });
+                },   
+                columns: [
+                  { text: 'First Name', groupable: true, datafield: 'firstname', width: 90 },
+                  { text: 'Last Name', groupable: true, datafield: 'lastname', width: 90 },
+                  { text: 'Product', groupable: false, columntype: 'dropdownlist', datafield: 'productname', width: 180 },
+                  { text: 'Ship Date', groupable: false, datafield: 'date', width: 90, cellsalign: 'right'},
+                  { text: 'Quantity', datafield: 'quantity', width: 70, cellsalign: 'right'},
+                  { text: 'Price', datafield: 'price', cellsalign: 'right', cellsformat: 'c2'}
+                ]
+            });
+
+			 $("#grid2").jqxGrid(
+            {
+                width: 450,
+                selectionmode: 'singlecell',
+				pageable: true,
+				source: dataAdapter,
+                autoheight: true,
+                source: { totalrecords: 10, unboundmode: true, datafields:
+                [
+                    { name: 'firstname' },
+                    { name: 'lastname' },
+                    { name: 'productname' }
+                ]
+                },
+                columns: [
+                   { text: 'First Name', dataField: 'firstname', width: 100 },
+                   { text: 'Last Name', dataField: 'lastname', width:100 },
+                   { text: 'Product', dataField: 'productname' }
+                ]
+            });     
+        });
+    </script>
+</head>
+<body class='default'>
+    <div id='jqxWidget'>
+        <div id="jqxgrid"></div>
+        <div id="grid1" style="float:left"></div>
+        <div style="margin-left:100px; float: left;" id="grid2"></div>
+    </div>
+</body>
+</html>
