@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/2128/branches/wsaf-1.0-Release/wsaf-console/src/main/java/com/wonders/frame/console/service/impl
+END
+SimpleConsoleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/product/!svn/ver/2090/branches/wsaf-1.0-Release/wsaf-console/src/main/java/com/wonders/frame/console/service/impl/SimpleConsoleServiceImpl.java
+END
+UserServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/product/!svn/ver/2128/branches/wsaf-1.0-Release/wsaf-console/src/main/java/com/wonders/frame/console/service/impl/UserServiceImpl.java
+END
+ResourceServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/product/!svn/ver/1810/branches/wsaf-1.0-Release/wsaf-console/src/main/java/com/wonders/frame/console/service/impl/ResourceServiceImpl.java
+END
+PermissionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/product/!svn/ver/1810/branches/wsaf-1.0-Release/wsaf-console/src/main/java/com/wonders/frame/console/service/impl/PermissionServiceImpl.java
+END
+PrivilegeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/product/!svn/ver/1810/branches/wsaf-1.0-Release/wsaf-console/src/main/java/com/wonders/frame/console/service/impl/PrivilegeServiceImpl.java
+END

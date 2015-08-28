@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+/* 修改*/
+.ui-dialog-title
+{
+	height:12px;
+}
+/* 通用*/
+form
+{
+		margin: 0;
+	padding: 0px;
+	border: 0px;
+	
+}
+body {
+	margin: 0;
+	padding: 0px;
+	border: 0px;
+	height: 100%;
+	background-color: #ecebea;
+	font: 10px/10px Arial, "微软雅黑", "宋体", Verdana, sans-serif;
+}
+html {
+	height: 100%
+}
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none !important;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.pt5 {
+	padding-top: 5px;
+}
+.mr5 {
+	margin-right: 5px;
+}
+.hidden {
+	visibility: hidden;
+}
+.show {
+	visibility: visible;
+}
+.displaynone {
+	display: none;
+}
+.displayblock {
+	display: block;
+}
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+}
+.clr_bwn {
+	color: #544127;
+}
+.searchs,.adds{
+/* 	line-height: 16px; */
+/* 	background: url(icon/search-icon.png) 95% 80% no-repeat; */
+/* 	background-color: #FFF; */
+/* 	border-radius: 15px; */
+	padding: 10px 5px 0px 0px;
+/* 	width: 0px; */
+/* 	border-style: none; */
+/* 	border: 1px #a9a487 solid; */
+}
+.btnIcon {
+	border-radius: 2px;
+	padding: 8px;
+	background-image: url("../js/jquery-ui-1.11.1.custom/images/ui-icons_654b1c_256x240.png");
+	background-color: #fff;
+	border: 1px solid #654b1c;
+}
+.btnIconb {
+	border-radius: 2px;
+	padding: 8px;
+	background-image: url("../js/jquery-ui-1.11.1.custom/images/ui-icons_9d7e6f_256x240.png");
+	background-color: #fff;
+	border: 1px solid #654b1c;
+}
+.btnPlus {
+	background-position: -33px -129px;
+}
+.btnMin {
+	background-position: -64px -129px;
+}
+.btn-just-Icon {
+	border-radius: 0px;
+	padding: 8px;
+	background-image: url("icon/listIcon.png");
+	background-color: transparent;
+	border: none;
+}
+.btn-just-Icon-b {
+	border-radius: 0px;
+	padding: 8px;
+	background-image: url("icon/listIconb.png");
+	background-color: transparent;
+	border: none;
+}
+.btnTotop {
+	background-position: 0px 0px;
+}
+.btnPrev {
+	background-position: -24px 0px;
+}
+.btnNext {
+	background-position: -42px 0px;
+
+	}
+	.btnTolast
+	{
+		background-position: -68px 0px;
+	}
+/* 个别*/
+body#default {
+	min-width: 1174px;
+}
+.v-center {
+	margin: 0;
+	height: 100%;
+}
+.v-menu {
+	color: #7e7a61;
+	background-color: #d9d7ca;
+	width: 80px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.v-menu ul {
+	padding-top: 80px;
+}
+.v-menu li, .v-menu a {
+	width: 78px;
+}
+.v-menu li {
+	border-bottom: #fff 1px solid;
+	width: 55px;
+	background-image: url(icon/icon.png);
+	padding: 55px 24px 0px 0px;
+}
+.v-menu a {
+	padding-left: 18px;
+	height: 27px;
+	width: 50px;
+	display: block;
+	margin-top: 2px;
+	color: #7e7a61;
+	border-bottom: #b3b09a 1px solid;
+}
+.v-menu .user {
+	background-position: 0px 0px;
+}
+.v-menu .role {
+	background-position: 0px -81px;
+}
+.v-menu .privilege {
+	background-position: 0px -162px;
+}
+.v-menu .organ {
+	background-position: 0px -243px;
+}
+.v-main {
+	background-color: #ecebea;
+	width: 100%;
+	height: 100%;
+}
+.v-main .v-top {
+	background-color: #d9d7ca;
+	height: 60px;
+	padding-top: 15px;
+}
+.v-main .v-top #radio {
+	margin: 5px 0px 0px 90px;
+}
+.v-main .v-top #radio label {
+	font-weight: bold;
+}
+.v-main .v-top .topmenu input {
+	border-style: none;
+	border: 1px #a9a487 solid;
+}
+.v-main .v-top .topmenu .searchbox input {
+	font: 14px/14px "微软雅黑", Lucida, Verdana, sans-serif;
+	line-height: 24px;
+	background: url(icon/search-icon.png) 95% 50% no-repeat;
+	background-color: #FFF;
+	border-radius: 15px;
+	padding: 4px 15px;
+	width: 250px;
+}
+.v-main .v-top .topmenu span {
+	float: left;
+}
+.topmenu .icon input {
+	border-radius: 30px;
+	padding: 8px 16px;
+	background-color: #d1cfc1;
+	margin-left: 5px;
+}
+.topmenu .icon .msgicon {
+	background: url(icon/iconMsg.png) 55% 55% no-repeat;
+}
+.topmenu .icon .favicon {
+	background: url(icon/iconFav.png) 50% 50% no-repeat;
+}
+.topmenu .icon .cfgicon {
+	background: url(icon/iconCfg.png) 50% 50% no-repeat;
+}
+.topmenu .userinfo {
+	margin: 0 20px 0 10px;
+	border-left: 1px #c4c1ac solid;
+	border-right: 1px #eee solid;
+}
+.topmenu .userinfo .lb {
+	padding: 0 0 0 10px;
+	border-left: 1px #eee solid;
+}
+.topmenu .userinfo div {
+	float: left;
+}
+.topmenu .userinfo li {
+	margin: 8px 10px;
+	color: #a9a487;
+	;
+}
+.topmenu .userDepartment {
+	padding-right: 124px;
+	border-right: 1px #c4c1ac solid;
+	background: url(icon/iconDown.png) 95% 50% no-repeat;
+	cursor: hand;
+	cursor: pointer;
+}
+.v-main .userMods {
+	width: 50%;
+}
+.v-main #myveast {
+	padding-left: 80px;
+}
+.v-main .userMod {
+	padding-top:10px;
+
+}
+.v-main .userMod ul.s_menu
+{
+	position: absolute;
+    background-color: #f6f5f0;
+    width: 130PX;
+    padding: 35PX 0 0PX 40PX;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    color: #5c4926;
+    font-size: 14px;
+}
+.v-main .userMod ul.s_menu li
+{
+padding:12px 0;
+
+}
+.v-main .userMod ul.s_menu li:hover
+{
+  color: #b83600;
+  cursor:pointer;  
+}
+.v-main .userMod h1 {
+/* 	position:absolute; */
+	padding-right:30px;
+	font-weight: normal;
+/* 	height:25px; */
+/* 	margin: 10px 0 0 10px; */
+/* 	background: url(icon/iconDown.png) 95% 90% no-repeat; */
+}
+.v-main .userMod .rdi .ui-button {
+	border-radius: 15px;
+	padding: 8px 0px;
+}
+
+.rdi {
+	border-radius: 15px;
+	border: 1px solid #b0ac91;
+	padding-right: 3px;
+	background: url(icon/iconSwitch.png) 55% 50% no-repeat;
+	background-color: #d1cfc1;
+}
+.iconShow {
+	background: transparent;
+	border: transparent;
+}
+
+.v-main .size
+{
+	padding:15px 0 0  10px; 
+	color:#885df3;
+	cursor:pointer;
+}
+.v-main .size:hover
+{
+	color:Blue;
+}
+
+
+.v-main .commtable {
+	margin-top: 15px;
+	width: 100%;
+	border: 1px solid #c4c1ac;
+	padding: 0px;
+}
+table.commtable,table.commtable>tbody,table.commtable>thead {
+	width:50%;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+	/*换行 :word-wrap:break-word;word-break:break-all;*/
+	/*不换行并且省略*/
+	table-layout: fixed;
+	word-wrap:break-word;
+	 word-break:break-all;
+}
+table.commtable th {
+	text-align: left;
+	border-width: 1px;
+	padding: 3px 0 3px 5px;
+	border-style: solid;
+	border-color: #c4c1ac;
+
+}
+table.commtable>tbody td,table.commtable>thead th
+{
+		/*不换行并且省略*/
+
+overflow:hidden;
+white-space:nowrap;
+word-break:keep-all;
+text-overflow:ellipsis;
+	
+}
+table.commtable>tbody td {
+	border-width: 0px;
+	padding: 6px 0 6px 5px;
+	border-style: solid;
+	border-color: #c4c1ac;
+	line-height:25px;
+
+}
+.oddrowcolor {
+	background-color: #fff;
+}
+.evenrowcolor {
+	background-color: #f6f5f0;
+}
+.importcolor {
+
+	background-color: #b5c73c;
+	color:#fff;
+
+}
+.table-bottom button {
+	margin-left: 5px;
+}
+.slider {
+	margin: 0px 5px;
+	width: 130px;
+}
+.userMods tbody input[type="button"]
+{border-style: none;border-radius: 30px;
+ width:25px; height:25px;padding: 0 1px 0 0;margin-left:5px;background-color: transparent;  
+        }
+.userMods tbody input.lv1
+	 {color:#c7188b;border: 2px #c7188b solid;}
+.userMods tbody input.lv2
+	 {color:#ff8b19;border: 2px #ff8b19 solid;}
+.userMods tbody input.lv3
+	 {color:#885df3;border: 2px #885df3 solid;}
+	 
+#menu {margin-left:80px; width: 150px; }	 
+/* 效果CSS开始 */
+.box_r{ width:143px; height:auto; overflow:hidden; position:fixed; right:0; top:150px; z-index:9999;}
+.box_r .top{width:143px; height:69px; background:url(../images/cslist_top_bg.png) no-repeat;}
+.box_r .main{ width:138px; height:auto; overflow:hidden; background:url(../images/right_bg.png) repeat-y left top;text-align:left; font-size:12px; padding-left:5px;}
+.box_r .main p{ height:25px; line-height:25px; padding-left:5px;}
+.box_r .bottom{ width:143px; height:17px; background:url(../images/cslist_btm_bg.png) no-repeat;}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-complexObj/src/main/java/com/wonders/frame/complex/dao
+END
+TestDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-complexObj/src/main/java/com/wonders/frame/complex/dao/TestDao.java
+END
+GroupOldDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-complexObj/src/main/java/com/wonders/frame/complex/dao/GroupOldDao.java
+END
+ComplexQueryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-complexObj/src/main/java/com/wonders/frame/complex/dao/ComplexQueryDao.java
+END
+UserOldDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-complexObj/src/main/java/com/wonders/frame/complex/dao/UserOldDao.java
+END

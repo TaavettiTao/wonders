@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/1918/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo
+END
+GeneralQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/1918/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/GeneralQuery.java
+END
+OrderBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/1840/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/OrderBody.java
+END
+SelectBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/1892/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/SelectBody.java
+END
+FromBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/1911/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/FromBody.java
+END
+JoinBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/1911/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/JoinBody.java
+END
+JoinOnBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/1911/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/JoinOnBody.java
+END
+WhereBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/1918/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/WhereBody.java
+END
+GroupByBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/1892/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/GroupByBody.java
+END
+ComplexQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/1918/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/ComplexQuery.java
+END
+HavingBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/1892/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/HavingBody.java
+END
+RemoveBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/1844/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/RemoveBody.java
+END
+OnBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/1918/branches/wsaf-1.0-Release/wsaf-complexObj/src/main/java/com/wonders/frame/complex/model/vo/OnBody.java
+END

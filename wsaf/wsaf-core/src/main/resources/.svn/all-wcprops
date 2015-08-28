@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/resources
+END
+wsaf-spring-jpa.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/resources/wsaf-spring-jpa.xml
+END
+ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/resources/ehcache.xml
+END
+wsaf-spring-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/resources/wsaf-spring-beans.xml
+END
+wsaf-spring-mvc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/resources/wsaf-spring-mvc.xml
+END

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+
+
+	<!-- 只扫描controller，其他交给父容器springContext -->
+	<context:component-scan base-package="com.wonders"> 
+  		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" /> 
+  		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" /> 
+  	</context:component-scan> 
+
+	<!-- controller层消息验证和转换 -->
+	<!-- 需要修改spring service context xml配置文件中的annotation-driven, 增加属性conversion-service指向新增的conversionService 
+		bean。 Spring MVC中对于requestBody中发送的数据转换不是通过databind来实现，而是使用HttpMessageConverter来实现具体的类型转换。 
+		在3.1版本中，将增加annotation-driven对自定义的messageConverter的支持 (SPR-7504)， -->
+	<mvc:annotation-driven conversion-service="conversion-service"
+		validator="validator">
+		<mvc:message-converters>
+			<bean
+				class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
+			<bean class="org.springframework.http.converter.FormHttpMessageConverter" />
+			<bean
+				class="org.springframework.http.converter.xml.SourceHttpMessageConverter" />
+			<bean
+				class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+				<property name="objectMapper" ref="customObjectMapper"></property>
+				<property name="supportedMediaTypes">
+					<list>
+						<value>application/json</value>
+						<value>text/json</value>
+					</list>
+				</property>
+			</bean>
+			<bean class="com.wonders.frame.core.utils.UTF8StringHttpMessageConverter" />
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="validationMessageSource" ref="messageSource" />
+	</bean>
+
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- set the max upload size100MB -->
+		<property name="defaultEncoding" value="utf-8" />
+		<property name="maxUploadSize">
+			<value>104857600</value>
+		</property>
+		<property name="maxInMemorySize">
+			<value>4096</value>
+		</property>
+	</bean>
+	<!-- FormattingConversionServiceFactoryBean：是FactoryBean实现，默认使用DefaultFormattingConversionService转换器服务实现； 
+		converters：注册我们自定义的类型转换器，此处list中没有详写。 -->
+	<bean id="conversion-service"
+		class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+		<property name="converters">
+			<list>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 本地化处理 -->
+	<bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+		<property name="defaultLocale" value="zh" />
+		<property name="cookieMaxAge" value="-1" />
+	</bean>
+
+
+	<!-- 视图层处理 -->
+	<!-- <mvc:view-controller path="/" -->
+	<!-- view-name="redirect:user/list" /> -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="order" value="999" />
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!-- <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver"> -->
+	<!-- <property name="order" value="1" /> -->
+	<!-- <property name="viewClass" -->
+	<!-- value="org.springframework.web.servlet.view.tiles2.TilesView" /> -->
+	<!-- </bean> -->
+<!---->
+	<!-- <bean id="tilesConfigurer" -->
+	<!-- class="org.springframework.web.servlet.view.tiles2.TilesConfigurer"> -->
+	<!-- <property name="definitions"> -->
+	<!-- <list> -->
+	<!-- <value>classpath:tiles.xml</value> -->
+	<!-- </list> -->
+	<!-- </property> -->
+	<!-- </bean> -->
+
+	<!-- 拦截器 -->
+	<mvc:interceptors>
+		<!-- 继承了HandlerInterceptorAdapter的拦截器，可以通过重写preHandle实现预处理，进行编码、安全控制等处理、 
+			重写postHandle实现后处理，修改ModelAndView（调用了Service并返回ModelAndView，但未进行页面渲染）、 重写afterCompletion实现返回处理，根据ex是否为null判断是否发生了异常，进行日志记录（已经渲染了页面） -->
+		<!-- <bean -->
+		<!-- class="com.wonders.frame.security.interceptor.HeaderInformationSetterInterceptor"> -->
+		<!-- <property name="dateFormatPattern" value="yyyy年MM月dd日" /> -->
+		<!-- </bean> -->
+		<bean
+			class="org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor">
+			<property name="entityManagerFactory" ref="entityManagerFactory" />
+		</bean>
+		<bean id="localeChangeInterceptor"
+			class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+			<property name="paramName" value="lang" />
+		</bean>
+	</mvc:interceptors>
+
+	<!-- 异常处理 -->
+	<bean id="exceptionResolver"
+		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<property name="exceptionMappings">
+			<props>
+				<prop key="org.springframework.security.access.AccessDeniedException">error/access-denied</prop>
+				<!-- <prop key="com.wonders.frame.exception.NonEmptyGroupException">error/non-empty-group</prop> -->
+			</props>
+		</property>
+		<property name="warnLogCategory" value="以下为警告信息" />
+		<property name="defaultErrorView" value="error" />
+		<property name="defaultStatusCode" value="500" />
+	</bean>
+
+	<!-- 静态资源处理 -->
+	<mvc:default-servlet-handler />
+
+	<mvc:resources mapping="/static/**" location="/WEB-INF/static/" />
+	<mvc:resources mapping="/js/**" location="/WEB-INF/js/" />
+	<mvc:resources mapping="/css/**" location="/WEB-INF/css/" />
+	<mvc:resources mapping="/images/**" location="/WEB-INF/images/" />
+
+</beans>

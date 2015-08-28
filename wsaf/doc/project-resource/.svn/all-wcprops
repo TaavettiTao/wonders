@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/product/!svn/ver/2037/branches/acdm/doc/project-resource
+END
+spring-mvc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/product/!svn/ver/2037/branches/acdm/doc/project-resource/spring-mvc.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/product/!svn/ver/2037/branches/acdm/doc/project-resource/log4j.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/product/!svn/ver/2037/branches/acdm/doc/project-resource/applicationContext.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/product/!svn/ver/2037/branches/acdm/doc/project-resource/web.xml
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/product/!svn/ver/2037/branches/acdm/doc/project-resource/config.properties
+END

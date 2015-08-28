@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-web/src/main/webapp/WEB-INF/jsp/contact
+END
+list-contact.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-web/src/main/webapp/WEB-INF/jsp/contact/list-contact.jsp
+END
+list-groups.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-web/src/main/webapp/WEB-INF/jsp/contact/list-groups.jsp
+END
+add-group.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-web/src/main/webapp/WEB-INF/jsp/contact/add-group.jsp
+END
+add-contact.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-web/src/main/webapp/WEB-INF/jsp/contact/add-contact.jsp
+END

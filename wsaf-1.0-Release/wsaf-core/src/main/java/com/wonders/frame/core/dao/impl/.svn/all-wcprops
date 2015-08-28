@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/2123/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/dao/impl
+END
+MultiDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/2108/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/dao/impl/MultiDaoImpl.java
+END
+RelationDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/2123/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/dao/impl/RelationDaoImpl.java
+END
+GenericRepositoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/2083/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/dao/impl/GenericRepositoryImpl.java
+END

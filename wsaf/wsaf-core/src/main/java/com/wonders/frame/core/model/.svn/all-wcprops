@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model
+END
+IWsafModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/IWsafModel.java
+END
+IMultiModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/IMultiModel.java
+END
+ISingleModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/ISingleModel.java
+END
+IRemovedModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/IRemovedModel.java
+END
+IDefaultModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/IDefaultModel.java
+END

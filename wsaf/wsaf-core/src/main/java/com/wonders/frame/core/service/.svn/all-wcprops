@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/product/!svn/ver/2039/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service
+END
+AttachService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/AttachService.java
+END
+ObjInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/ObjInfoService.java
+END
+SingleCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/SingleCrudService.java
+END
+MultiSqlBuilderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/MultiSqlBuilderService.java
+END
+RuleTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/RuleTypeService.java
+END
+ImportConfigService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/ImportConfigService.java
+END
+MultiCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/MultiCrudService.java
+END
+ObjInfoCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/ObjInfoCache.java
+END
+BasicCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/BasicCrudService.java
+END
+RuleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/RuleService.java
+END
+RelationService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/RelationService.java
+END
+RelationObjCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/RelationObjCache.java
+END
+SingleHqlBuilderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/SingleHqlBuilderService.java
+END
+CcateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/service/CcateService.java
+END

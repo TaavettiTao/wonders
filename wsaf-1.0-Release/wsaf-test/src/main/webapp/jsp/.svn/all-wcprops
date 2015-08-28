@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/product/!svn/ver/2116/branches/wsaf-1.0-Release/wsaf-test/src/main/webapp/jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/product/!svn/ver/2048/branches/wsaf-1.0-Release/wsaf-test/src/main/webapp/jsp/login.jsp
+END
+edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/product/!svn/ver/2116/branches/wsaf-1.0-Release/wsaf-test/src/main/webapp/jsp/edit.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/product/!svn/ver/2116/branches/wsaf-1.0-Release/wsaf-test/src/main/webapp/jsp/list.jsp
+END
+testMultiple.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/product/!svn/ver/2116/branches/wsaf-1.0-Release/wsaf-test/src/main/webapp/jsp/testMultiple.jsp
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2098/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller
+END
+AbstractSingleCrudieController.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/product/!svn/ver/2019/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/AbstractSingleCrudieController.java
+END
+RuleTypeApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/product/!svn/ver/2095/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/RuleTypeApiController.java
+END
+RuleApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/2011/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/RuleApiController.java
+END
+RelationApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/product/!svn/ver/2011/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/RelationApiController.java
+END
+AbstractlMultiCrudController.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/product/!svn/ver/2098/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/AbstractlMultiCrudController.java
+END
+AbstractSingleCrudController.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/product/!svn/ver/2011/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/AbstractSingleCrudController.java
+END
+AttachApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/2095/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/AttachApiController.java
+END
+ObjInfoApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/2011/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/controller/ObjInfoApiController.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api
+END
+RoleApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/RoleApiController.java
+END
+UserApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/UserApiController.java
+END
+ResourceApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/ResourceApiController.java
+END
+GroupApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/GroupApiController.java
+END
+OrganApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/OrganApiController.java
+END
+PrivilegeApiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/PrivilegeApiController.java
+END
+AbstractGenericRelationTreeObjController.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/AbstractGenericRelationTreeObjController.java
+END
+AbstractGenericRelationObjController.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-console/src/main/java/com/wonders/frame/console/controller/api/AbstractGenericRelationObjController.java
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao
+END
+CcateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/CcateDao.java
+END
+DefaultRepositoryFactoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/DefaultRepositoryFactoryBean.java
+END
+DefaultRepositoryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/DefaultRepositoryFactory.java
+END
+AttachDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/AttachDao.java
+END
+ObjInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/ObjInfoDao.java
+END
+CodesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/CodesDao.java
+END
+RuleTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/RuleTypeDao.java
+END
+ImportConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/ImportConfigDao.java
+END
+MultiDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/MultiDao.java
+END
+RelationDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/RelationDao.java
+END
+RuleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/RuleDao.java
+END
+ImportConfigLogDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/ImportConfigLogDao.java
+END
+GenericRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/dao/GenericRepository.java
+END

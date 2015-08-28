@@ -1,0 +1,34 @@
+10
+
+dir
+2037
+http://10.1.44.80:8888/svn/product/branches/acdm/wsaf-security/src
+http://10.1.44.80:8888/svn/product
+
+
+
+2015-03-25T08:05:46.577875Z
+1635
+mengjie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16ba82be-6467-9247-9bb0-a2006b16e4aa
+
+main
+dir
+
+test
+dir
+

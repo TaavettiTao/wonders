@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/model/vo
+END
+TestUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/model/vo/TestUser.java
+END
+TestRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/model/vo/TestRole.java
+END
+TestResc.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/model/vo/TestResc.java
+END

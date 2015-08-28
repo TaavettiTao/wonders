@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/tags/impl
+END
+MatchesValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/tags/impl/MatchesValidator.java
+END
+CheckCaseValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/tags/impl/CheckCaseValidator.java
+END
+ForbiddenValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/tags/impl/ForbiddenValidator.java
+END
+FixLengthImplValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/tags/impl/FixLengthImplValidator.java
+END
+BetweenImplForDateValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/tags/impl/BetweenImplForDateValidator.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao
+END
+TestObjInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestObjInfoDao.java
+END
+TestCodesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestCodesDao.java
+END
+AbstractTestDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/AbstractTestDao.java
+END
+TestAttachDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestAttachDao.java
+END
+TestMultiDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestMultiDao.java
+END
+TestRuleTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestRuleTypeDao.java
+END
+TestImportConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestImportConfigDao.java
+END
+TestImportConfigLogDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestImportConfigLogDao.java
+END
+TestRelationDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestRelationDao.java
+END
+TestRuleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestRuleDao.java
+END
+TestCcateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestCcateDao.java
+END

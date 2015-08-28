@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service
+END
+TestAttachService.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service/TestAttachService.java
+END
+TestUserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service/TestUserService.java
+END
+TestPrivilegeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service/TestPrivilegeService.java
+END
+TestAllService.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service/TestAllService.java
+END
+TestResourceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service/TestResourceService.java
+END
+TestPermissionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service/TestPermissionService.java
+END
+TestSimpleConsoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/service/TestSimpleConsoleService.java
+END

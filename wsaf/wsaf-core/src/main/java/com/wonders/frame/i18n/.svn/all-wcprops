@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/i18n
+END
+jsr303.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/i18n/jsr303.properties
+END
+jsr303_zh_CN.properties
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/i18n/jsr303_zh_CN.properties
+END
+ui.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/i18n/ui.properties
+END

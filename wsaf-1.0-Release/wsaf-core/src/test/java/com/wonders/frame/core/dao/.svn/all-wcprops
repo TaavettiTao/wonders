@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao
+END
+TestMultiDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/2097/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestMultiDao.java
+END
+TestRuleTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/2074/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestRuleTypeDao.java
+END
+TestImportConfigLogDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/2074/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestImportConfigLogDao.java
+END
+TestRelationDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/2025/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestRelationDao.java
+END
+TestRuleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/product/!svn/ver/2074/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestRuleDao.java
+END
+TestObjInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/2021/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestObjInfoDao.java
+END
+Ejb1Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/Ejb1Dao.java
+END
+TestCodesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/2074/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestCodesDao.java
+END
+AbstractTestDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/2132/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/AbstractTestDao.java
+END
+Ejb2Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/Ejb2Dao.java
+END
+Ejb3Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/Ejb3Dao.java
+END
+Ejb4Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/Ejb4Dao.java
+END
+TestAttachDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/product/!svn/ver/2074/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestAttachDao.java
+END
+Ejb5Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/Ejb5Dao.java
+END
+TestImportConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/2074/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestImportConfigDao.java
+END
+TestCcateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/product/!svn/ver/2004/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/dao/TestCcateDao.java
+END

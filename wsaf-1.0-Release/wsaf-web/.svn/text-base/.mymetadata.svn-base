@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="wsaf-web"
+  id="myeclipse.1408504003046"
+  context-root="/wsaf"
+  j2ee-spec="5.0"
+  archive="wsaf-web.war">
+  <attributes>
+    <attribute name="webrootdir" value="/src/main/webapp" />
+  </attributes>
+</project-module>
+

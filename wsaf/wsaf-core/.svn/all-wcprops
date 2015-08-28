@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/product/!svn/ver/2087/branches/acdm/wsaf-core
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/pom.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/product/!svn/ver/2087/branches/acdm/wsaf-core/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/product/!svn/ver/2087/branches/acdm/wsaf-core/.classpath
+END

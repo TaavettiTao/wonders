@@ -1,0 +1,46 @@
+10
+
+dir
+2178
+http://10.1.44.80:8888/svn/product/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core
+http://10.1.44.80:8888/svn/product
+
+
+
+2015-08-21T03:24:43.634500Z
+2165
+lushuaifeng
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16ba82be-6467-9247-9bb0-a2006b16e4aa
+
+controller
+dir
+
+dao
+dir
+
+model
+dir
+
+service
+dir
+
+tags
+dir
+
+utils
+dir
+

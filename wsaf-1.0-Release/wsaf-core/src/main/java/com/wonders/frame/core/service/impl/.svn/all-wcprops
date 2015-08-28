@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2124/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl
+END
+AttachServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/2095/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/AttachServiceImpl.java
+END
+ObjInfoServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/2018/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/ObjInfoServiceImpl.java
+END
+SingleCrudServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/product/!svn/ver/2038/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/SingleCrudServiceImpl.java
+END
+MultiSqlBuilderServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/product/!svn/ver/2124/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/MultiSqlBuilderServiceImpl.java
+END
+RuleTypeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/product/!svn/ver/2018/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/RuleTypeServiceImpl.java
+END
+ImportConfigServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/product/!svn/ver/2018/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/ImportConfigServiceImpl.java
+END
+MultiCrudServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/product/!svn/ver/2107/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/MultiCrudServiceImpl.java
+END
+RelationServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/product/!svn/ver/2095/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/RelationServiceImpl.java
+END
+BasicCrudServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/product/!svn/ver/1965/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/BasicCrudServiceImpl.java
+END
+RuleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/2095/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/RuleServiceImpl.java
+END
+SingleHqlBuilderServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/product/!svn/ver/2124/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/SingleHqlBuilderServiceImpl.java
+END
+CcateServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/1811/branches/wsaf-1.0-Release/wsaf-core/src/main/java/com/wonders/frame/core/service/impl/CcateServiceImpl.java
+END

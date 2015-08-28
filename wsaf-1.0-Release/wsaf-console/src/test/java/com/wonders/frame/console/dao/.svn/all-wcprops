@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao
+END
+AbstractTestDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/AbstractTestDao.java
+END
+TestRoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/TestRoleDao.java
+END
+TestGroupDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/TestGroupDao.java
+END
+TestUserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/2176/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/TestUserDao.java
+END
+TestOrganDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/TestOrganDao.java
+END
+TestPrivilegeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/TestPrivilegeDao.java
+END
+TestAllDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/TestAllDao.java
+END
+TestResourseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/2130/branches/wsaf-1.0-Release/wsaf-console/src/test/java/com/wonders/frame/console/dao/TestResourseDao.java
+END

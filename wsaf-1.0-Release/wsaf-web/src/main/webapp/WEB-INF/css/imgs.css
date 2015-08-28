@@ -1,0 +1,54 @@
+/* CSS Version Default */
+/* Version: 2.0  || Date: 2013-04-17 || Author: Cathy */
+/* Cascading Style Sheets Level 2 Revision 1 */
+@charset "utf-8";
+input:-webkit-autofill { 
+-webkit-box-shadow: 0 0 0px 1000px white inset; 
+border: 1px solid #CCC!important; 
+
+} 
+
+/*login*/
+.login{
+	background-image:url(../images/login/login-bg.jpg);
+}
+.login .form_bg{
+	background:rgba(0,0,0,.6);
+	color:#fff;
+}
+.login label{
+	color:#464646;
+}
+.login input[type="text"], .login input[type="password"]{
+	background-color:#fbfbfb;
+}
+.login input.user{
+	background-image:url(../images/login/user.png);
+}
+.login input.pw{
+	background-image:url(../images/login/pw.png);
+}
+.login input.yzm{
+	background-image:url(../images/login/yzm.png);
+}
+.login button, .login input[type="button"], .login input[type="submit"]{
+	background:none;
+	color:#fff;
+	text-shadow:none;
+	border:#ccc 1px solid;
+}
+.login input[type="submit"]{
+   margin:20px 0 0 39px;
+}
+.login button:hover, .login input[type="button"]:hover{
+	border-color:#fff;
+}
+.errow{
+	background:url(../images/login/icon.png) 270px 12px no-repeat;
+}
+.yes{
+	background:url(../images/login/icon.png) 270px -28px no-repeat;
+}
+
+/*login end*/
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/product/!svn/ver/2115/branches/wsaf-1.0-Release/wsaf-test/src/main/resources
+END
+spring-mvc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/product/!svn/ver/2050/branches/wsaf-1.0-Release/wsaf-test/src/main/resources/spring-mvc.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/product/!svn/ver/1867/branches/wsaf-1.0-Release/wsaf-test/src/main/resources/log4j.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/product/!svn/ver/2050/branches/wsaf-1.0-Release/wsaf-test/src/main/resources/applicationContext.xml
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/product/!svn/ver/2115/branches/wsaf-1.0-Release/wsaf-test/src/main/resources/config.properties
+END

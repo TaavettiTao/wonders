@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo
+END
+MultiModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiModel.java
+END
+MultiQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiQuery.java
+END
+MultiQuerySelectField.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiQuerySelectField.java
+END
+FieldProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/FieldProperty.java
+END
+MultiModelMainObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiModelMainObj.java
+END
+RelatedNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/RelatedNode.java
+END
+ValidError.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/ValidError.java
+END
+MultiModelElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiModelElement.java
+END
+MultiQuerySelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiQuerySelect.java
+END
+MultiQueryField.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiQueryField.java
+END
+ObjKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/ObjKey.java
+END
+SingleModelParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/SingleModelParams.java
+END
+ReturnObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/ReturnObj.java
+END
+SingleQueryParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/SingleQueryParams.java
+END
+ObjectInfoVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/ObjectInfoVo.java
+END
+SingleHqlElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/SingleHqlElement.java
+END
+SimplePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/SimplePage.java
+END
+TreeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/TreeNode.java
+END
+MultiQuerySqlElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiQuerySqlElement.java
+END
+PageInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/PageInfo.java
+END
+MultiModelRelatedObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiModelRelatedObj.java
+END
+PlaceholderParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/PlaceholderParam.java
+END
+GenericEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/GenericEnum.java
+END
+EntityProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/EntityProperty.java
+END
+ObjectAttributeVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/ObjectAttributeVo.java
+END
+Dictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/Dictionary.java
+END
+NodeObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/NodeObj.java
+END
+ReturnObjInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/ReturnObjInfo.java
+END
+MultiQueryEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-core/src/main/java/com/wonders/frame/core/model/vo/MultiQueryEntity.java
+END

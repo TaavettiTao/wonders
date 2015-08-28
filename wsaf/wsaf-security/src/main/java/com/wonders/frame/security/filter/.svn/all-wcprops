@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-security/src/main/java/com/wonders/frame/security/filter
+END
+ValidatedUsernamePasswordAuthenticationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-security/src/main/java/com/wonders/frame/security/filter/ValidatedUsernamePasswordAuthenticationFilter.java
+END
+CustomAuthenticationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/product/!svn/ver/2037/branches/acdm/wsaf-security/src/main/java/com/wonders/frame/security/filter/CustomAuthenticationFilter.java
+END

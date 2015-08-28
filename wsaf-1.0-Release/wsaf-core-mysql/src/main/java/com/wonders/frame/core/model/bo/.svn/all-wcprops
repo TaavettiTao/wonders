@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo
+END
+ImportConfigLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/ImportConfigLog.java
+END
+Rule.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/Rule.java
+END
+Relation.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/Relation.java
+END
+ImportConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/ImportConfig.java
+END
+RuleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/RuleType.java
+END
+Codes.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/Codes.java
+END
+Attach.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/Attach.java
+END
+ObjInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/ObjInfo.java
+END
+Ccate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/2168/branches/wsaf-1.0-Release/wsaf-core-mysql/src/main/java/com/wonders/frame/core/model/bo/Ccate.java
+END

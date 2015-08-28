@@ -1,0 +1,40 @@
+10
+
+dir
+2178
+http://10.1.44.80:8888/svn/product/branches/wsaf-1.0-Release/wsaf-aop/src/main/java/com/wonders/frame
+http://10.1.44.80:8888/svn/product
+
+
+
+2015-04-14T06:40:42.187500Z
+1788
+mengjie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16ba82be-6467-9247-9bb0-a2006b16e4aa
+
+controller
+dir
+
+dao
+dir
+
+model
+dir
+
+service
+dir
+

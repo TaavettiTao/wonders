@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/product/!svn/ver/2152/branches/wsaf-1.0-Release/wsaf-console-acdm-model/src/main/java/com/wonders/frame/console/model/bo
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/2152/branches/wsaf-1.0-Release/wsaf-console-acdm-model/src/main/java/com/wonders/frame/console/model/bo/Group.java
+END
+Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/product/!svn/ver/2152/branches/wsaf-1.0-Release/wsaf-console-acdm-model/src/main/java/com/wonders/frame/console/model/bo/Resource.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/2152/branches/wsaf-1.0-Release/wsaf-console-acdm-model/src/main/java/com/wonders/frame/console/model/bo/User.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/product/!svn/ver/2152/branches/wsaf-1.0-Release/wsaf-console-acdm-model/src/main/java/com/wonders/frame/console/model/bo/Role.java
+END
+Organ.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/product/!svn/ver/2152/branches/wsaf-1.0-Release/wsaf-console-acdm-model/src/main/java/com/wonders/frame/console/model/bo/Organ.java
+END
+Privilege.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/product/!svn/ver/2152/branches/wsaf-1.0-Release/wsaf-console-acdm-model/src/main/java/com/wonders/frame/console/model/bo/Privilege.java
+END

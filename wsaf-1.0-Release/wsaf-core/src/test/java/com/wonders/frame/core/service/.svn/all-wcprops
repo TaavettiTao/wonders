@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/product/!svn/ver/2178/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service
+END
+TestMultiCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/2156/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestMultiCrudService.java
+END
+TestObjInfoCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/2125/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestObjInfoCache.java
+END
+TestAttachService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/product/!svn/ver/2132/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestAttachService.java
+END
+TestRuleTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/2178/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestRuleTypeService.java
+END
+TestBasicCrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestBasicCrudService.java
+END
+TestRuleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/product/!svn/ver/2178/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestRuleService.java
+END
+TestRelationService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/product/!svn/ver/2136/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestRelationService.java
+END
+TestCcateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/product/!svn/ver/2125/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestCcateService.java
+END
+TestSingleHqlBuilderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/product/!svn/ver/2178/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestSingleHqlBuilderService.java
+END
+TestObjInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/product/!svn/ver/2127/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestObjInfoService.java
+END
+TestMultiSqlBuilderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/product/!svn/ver/2121/branches/wsaf-1.0-Release/wsaf-core/src/test/java/com/wonders/frame/core/service/TestMultiSqlBuilderService.java
+END
